@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: flex-end;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.cover .cover-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+section .cover-img img {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.cover-info {
+    height: 55%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.cover-info p {
+    font-family: 'Roboto mono', monospace;
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+}
+
+.cover-info button {
+    width: 110px;
+    height: 50px;
+    background: #48cfad;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 15px;
+    border: none;
+}
+
+@media (max-width: 650px) {
+    .cover-info p {
+      font-size: 20px;
+    }
+    .cover-info button {
+      font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cover-info p {
+      font-size: 15px;
+    }
+    .cover-info button {
+      font-size: 10px;
+    }
+}
