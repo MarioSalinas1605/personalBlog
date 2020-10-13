@@ -73,31 +73,26 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
-.cover .cover-img {
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    display: flex;
-    justify-content: center;
 }
 
-section .cover-img img {
-    min-width: 100%;
-    min-height: 100%;
-    width: 100%;
-    height: auto;
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
 }
 
-.cover-info {
-    height: 55%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.cover-info p {
+.home-main-info p {
     font-family: 'Roboto mono', monospace;
     font-size: 30px;
     font-weight: 700px;
@@ -106,7 +101,7 @@ section .cover-img img {
     text-align: center;
 }
 
-.cover-info button {
+.home-main-info button {
     width: 110px;
     height: 50px;
     background: #48cfad;
@@ -119,19 +114,19 @@ section .cover-img img {
 }
 
 @media (max-width: 650px) {
-    .cover-info p {
+    .home-main-info p {
       font-size: 20px;
     }
-    .cover-info button {
+    .home-main-info button {
       font-size: 13px;
     }
 }
 
 @media (max-width: 450px) {
-    .cover-info p {
+    .home-main-info p {
       font-size: 15px;
     }
-    .cover-info button {
+    .home-main-info button {
       font-size: 10px;
     }
 }
