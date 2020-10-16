@@ -177,7 +177,10 @@ nav .profile-link a {
     padding-bottom: 40px;
 }
 
-.blogs-last-blogposts hr {
+.blogs-last-blogposts h3 {
+    text-align: center;
+    border-bottom: 2px solid rgb(230, 233, 237);
+    padding-bottom: 20px;
     width: 90%;
 }
 
@@ -207,18 +210,13 @@ footer {
     padding-top: 40px;
 }
 
-.footer-first-line {
-    height: 35px;
-    width: 100%;
-    background-color: #47cfac;
-}
-
 .footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(34, 39, 45);
     height: 90px;
+    border-top: 35px solid #47cfac;
 }
 
 .footer-info p {
