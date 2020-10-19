@@ -179,7 +179,7 @@ nav .profile-link a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .blogs-last-blogposts h3 {
@@ -210,10 +210,6 @@ nav .profile-link a {
 }
 
 /*-----------------------------------------------------------*/
-
-footer {
-    padding-top: 40px;
-}
 
 .footer-info {
     display: flex;
@@ -250,4 +246,32 @@ footer {
 
 .blogpost-main-container div h1 {
     font-size: 35px;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(230, 233, 237);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+} 
+
+.contact-main-container img {
+    width: 100px;
 }
