@@ -275,3 +275,24 @@ nav .profile-link a {
 .contact-main-container img {
     width: 100px;
 }
+
+/*-----------------------------------------------------------*/
+
+
+.profile-banner-main {
+    display: grid;
+    grid-template-columns: 32% auto;
+    padding: 0 10%;
+    background-color: rgb(230, 233, 237);
+}
+
+.profile-banner-image img {
+    width: 85%;
+    padding: 10%;
+}
+
+.profile-banner-main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
