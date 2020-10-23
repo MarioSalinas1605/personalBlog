@@ -296,3 +296,37 @@ nav .profile-link a {
     flex-direction: column;
     justify-content: center;
 }
+
+.profile-last-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.profile-last-project h3 {
+    text-align: center;
+    border-bottom: 2px solid rgb(230, 233, 237);
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.profile-last-project .profile-projects {
+    width: 80%;
+}
+
+.profile-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profile-projects .project-article img {
+    padding-top: 20px;
+    width: 90%;
+}
+
+@media (max-width: 500px) {
+    .profile-projects {
+        grid-template-columns: 1fr;
+    }
+}
