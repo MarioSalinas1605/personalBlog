@@ -203,9 +203,19 @@ nav .profile-link a {
     width: 90%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+    .blogs-blogposts {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
     .blogs-blogposts {
         grid-template-columns: 1fr;
+    }
+    .blogs-news-main {
+        display: block;
+        padding: 10px;
     }
 }
 
@@ -325,7 +335,16 @@ nav .profile-link a {
     width: 90%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+    .profile-projects {
+        grid-template-columns: 1fr 1fr;
+    }
+    .profile-banner-main {
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
     .profile-projects {
         grid-template-columns: 1fr;
     }
